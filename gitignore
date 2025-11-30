@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+*.egg-info/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Data files
+*.csv
+*.xlsx
+*.pdf
+*.docx
+*.txt
+!requirements.txt
+!README.md
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+*.log
+
+# Models (cached)
+models/
+sentence_transformers/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
